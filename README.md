@@ -1,24 +1,76 @@
 # Proof of Bottleneck™ / PoB™
 
-A proof-oriented intake for critical compute bottlenecks.
+Independent research on verifiable AI & systems safety.
 
-We focus on measurable proof paths for:
+Proof of Bottleneck explores architectures in which critical safety claims can be measured, challenged, falsified and independently verified — rather than merely trusted.
 
-- tail latency
-- queue pressure
-- wasted execution
-- thermal walls
-- silent drift
-- proof gaps
+## Current research
 
-Core principles:
+- Verifiable non-execution
+- Causal security
+- Compositional safety
+- Irreversible-action control
+- Multi-agent systems
+- Formal safety invariants
 
-- falsifiable baseline
-- measurable claim
-- decision receipt
-- reproducible technical verdict
+## Flagship research — NO-EXEC™
 
-Website: https://proofofbottleneck.com  
-Contact: termux23core@gmail.com
+NO-EXEC™ explores whether a denied workload can be stopped before protected resource allocation while leaving independently auditable evidence that the forbidden execution path was not entered.
 
-No proof, no path. No path, no patch.
+**French patent application filed.**
+
+Public experimental work has progressed from mobile / Termux environments to bare-metal infrastructure.
+
+Selected experimental signals:
+
+- Bare-metal ADMIT / DENY heavy campaign: PASS 5/5
+- Statistical result: p = 0.0005
+- Measured energy separation: ≈ 5.66×
+
+These results are prototype-level experimental evidence in tested configurations. They are not claims of universal non-execution, bypass immunity or independent industrial validation.
+
+## Termux23
+
+Experimental work is conducted with **Termux23**, a small independent technical team focused on prototyping, adversarial testing and hard falsification.
+
+> Break the hypothesis before asking anyone else to trust it.
+
+## Public disclosure boundary
+
+### Publicly disclosed
+
+- Research objectives
+- Threat-model principles
+- High-level experimental outcomes
+- Falsification methodology
+- Prototype-to-bare-metal progression
+
+### Intentionally withheld
+
+- Admission and enforcement internals
+- Certificate construction mechanisms
+- Critical state transitions
+- Operational thresholds
+- Bypass-sensitive implementation parameters
+
+This repository is intentionally **not** a complete implementation disclosure.
+
+## Research principles
+
+- Falsifiable baselines
+- Measurable claims
+- Reproducible proof paths
+- Evidence before trust
+- Explicit evidence boundaries
+
+## Links
+
+Website: https://proofofbottleneck.com
+
+## Contact
+
+Proof of Bottleneck / Termux23
+
+---
+
+**No proof. No path. No patch.**
